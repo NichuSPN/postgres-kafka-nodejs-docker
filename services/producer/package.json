@@ -1,0 +1,18 @@
+{
+  "name": "kafka-nodejs-example-producer",
+  "version": "1.0.0",
+  "description": "A kafka producer that also acts as a web server.",
+  "author": "Anthony Hastings <ar.hastings@gmail.com> (https://antwan1986.github.io/)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node producer.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.0.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
